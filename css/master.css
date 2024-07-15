@@ -228,7 +228,7 @@ td,th {
 }
 
 @font-face {
-	font-family:'Glyphicons Halflings';src:url(http://127.0.0.1:5500/fonts/glyphicons-halflings-regular.eot);src:url(http://127.0.0.1:5500/fonts/glyphicons-halflings-regular.eot#iefix) format('embedded-opentype'),url(http://127.0.0.1:5500/fonts/glyphicons-halflings-regular.woff) format('woff'),url(http://127.0.0.1:5500/fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(http://127.0.0.1:5500/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+	font-family:'Glyphicons Halflings';src:url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-halflings-regular.eot);src:url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-halflings-regular.eot#iefix) format('embedded-opentype'),url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-halflings-regular.woff) format('woff'),url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
 }
 
 .glyphicon {
@@ -6620,7 +6620,7 @@ button.close {
 }
 
 @font-face {
-	font-family:'Glyphicons Social';src:url(http://127.0.0.1:5500/fonts/glyphicons-social-regular.eot);src:url(http://127.0.0.1:5500/fonts/glyphicons-social-regular.eot#iefix) format('embedded-opentype'),url(http://127.0.0.1:5500/fonts/glyphicons-social-regular.woff2) format('woff2'),url(http://127.0.0.1:5500/fonts/glyphicons-social-regular.woff) format('woff'),url(http://127.0.0.1:5500/fonts/glyphicons-social-regular.ttf) format('truetype'),url(http://127.0.0.1:5500/fonts/glyphicons-social-regular.svg#glyphicons_socialregular) format('svg');
+	font-family:'Glyphicons Social';src:url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-social-regular.eot);src:url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-social-regular.eot#iefix) format('embedded-opentype'),url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-social-regular.woff2) format('woff2'),url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-social-regular.woff) format('woff'),url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-social-regular.ttf) format('truetype'),url(https://otakugangsta.github.io/otakugangsta/fonts/glyphicons-social-regular.svg#glyphicons_socialregular) format('svg');
 }
 
 .social {
@@ -10842,11 +10842,11 @@ img.mfp-img {
 }
 
 @font-face {
-	font-family:'Oxygen Bold';src:url(http://127.0.0.1:5500/fonts/OpenSans-Light-webfont.eot);src:url(http://127.0.0.1:5500/fonts/OpenSans-Light-webfont.eot#iefix) format('embedded-opentype'),url(http://127.0.0.1:5500/fonts/OpenSans-Light-webfont.svg#my-font-family) format('svg'),url(http://127.0.0.1:5500/fonts/OpenSans-Light-webfont.woff) format('woff'),url(http://127.0.0.1:5500/fonts/OpenSans-Light-webfont.ttf) format('truetype');font-weight:400;font-style:normal;
+	font-family:'Oxygen Bold';src:url(https://otakugangsta.github.io/otakugangsta/fonts/OpenSans-Light-webfont.eot);src:url(https://otakugangsta.github.io/otakugangsta/fonts/OpenSans-Light-webfont.eot#iefix) format('embedded-opentype'),url(https://otakugangsta.github.io/otakugangsta/fonts/OpenSans-Light-webfont.svg#my-font-family) format('svg'),url(https://otakugangsta.github.io/otakugangsta/fonts/OpenSans-Light-webfont.woff) format('woff'),url(https://otakugangsta.github.io/otakugangsta/fonts/OpenSans-Light-webfont.ttf) format('truetype');font-weight:400;font-style:normal;
 }
 
 @font-face {
-	font-family:'Oxygen Regular';src:url(http://127.0.0.1:5500/fonts/ogicomoon.eot);src:url(http://127.0.0.1:5500/fonts/ogicomoon.eot#iefix) format('embedded-opentype'),url(http://127.0.0.1:5500/fonts/ogicomoon.svg#my-font-family) format('svg'),url(http://127.0.0.1:5500/fonts/ogicomoon.woff) format('woff'),url(http://127.0.0.1:5500/fonts/ogicomoon.ttf) format('truetype');font-weight:400;font-style:normal;
+	font-family:'Oxygen Regular';src:url(https://otakugangsta.github.io/otakugangsta/fonts/ogicomoon.eot);src:url(https://otakugangsta.github.io/otakugangsta/fonts/ogicomoon.eot#iefix) format('embedded-opentype'),url(https://otakugangsta.github.io/otakugangsta/fonts/ogicomoon.svg#my-font-family) format('svg'),url(https://otakugangsta.github.io/otakugangsta/fonts/ogicomoon.woff) format('woff'),url(https://otakugangsta.github.io/otakugangsta/fonts/ogicomoon.ttf) format('truetype');font-weight:400;font-style:normal;
 }
 
 body {
@@ -11332,7 +11332,7 @@ form {
 	right: -16px;
 	width: 50px;
 	height: 50px;
-	background-image: url(http://127.0.0.1:5500/img/star.png);
+	background-image: url(https://otakugangsta.github.io/otakugangsta/img/star.png);
 	background-size: cover;
 	-webkit-transform: rotate3d(0,0,1,10deg);
 	transform: rotate3d(0,0,1,10deg);
