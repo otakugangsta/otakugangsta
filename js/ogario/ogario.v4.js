@@ -51,7 +51,7 @@ function deleteGamemode(temp) {
 
 	privateModOptions = [
 	{
-            text: 'Delta FFA',
+            text: 'Agar Live FFA10',
             value: 4001
         },
 	/*{
@@ -360,7 +360,7 @@ function deleteGamemode(temp) {
 			core.connect('ws://na.agarios.org:443/');
         }
 	else if ($('#gamemode').val() == 4001) {
-			core.connect('wss://delta-ffa.glitch.me');
+			core.connect('wss://ffa10.agariodns.cyou');
         }
 	else if ($('#gamemode').val() == 4002) {
 			core.connect('wss://delta-server.fly.dev');
@@ -16643,40 +16643,40 @@ function hideContextMenu4(evt) {
     menuLeft4.hide();
     document.getElementById("skin").removeEventListener('click', hideContextMenu4);
 }
-//Animated Skins
-function animateSkincheck() {
-    //for (i = 0; i < 10; i++) {
-    //SpecialEffectPlayers[	
-    let verifiednames;
-    for (let i = 0; i < 1; i++) {
-        for (let animatedi = 0; animatedi < legendmod.leaderboard.length; animatedi++) {
-            for (let animatedkey in animatedskins) {
-                if (animatedkey === legendmod.leaderboard[animatedi].nick) {
-                    if (animatedskins[animatedkey] && animatedskins[animatedkey].frames) {
-                        e = animatedskins[animatedkey].frames.length - 1;
-                        window.anual = 0;
-                        for (let animateda = 0; animateda <= animatedskins[animatedkey].frames.length - 1; animateda++) {
-                            b = animateda;
-                            verifiednames = animatedkey;
-                            window.anual = window.anual + animatedskins[verifiednames].frames[b].delay * 1000;
-                            d = animatedi;
-                            animateSkin(b, verifiednames, d, e, i);
-                            if (window.anualTop < window.anual) window.anualTop = window.anual
+// //Animated Skins
+// function animateSkincheck() {
+//     //for (i = 0; i < 10; i++) {
+//     //SpecialEffectPlayers[	
+//     let verifiednames;
+//     for (let i = 0; i < 1; i++) {
+//         for (let animatedi = 0; animatedi < legendmod.leaderboard.length; animatedi++) {
+//             for (let animatedkey in animatedskins) {
+//                 if (animatedkey === legendmod.leaderboard[animatedi].nick) {
+//                     if (animatedskins[animatedkey] && animatedskins[animatedkey].frames) {
+//                         e = animatedskins[animatedkey].frames.length - 1;
+//                         window.anual = 0;
+//                         for (let animateda = 0; animateda <= animatedskins[animatedkey].frames.length - 1; animateda++) {
+//                             b = animateda;
+//                             verifiednames = animatedkey;
+//                             window.anual = window.anual + animatedskins[verifiednames].frames[b].delay * 1000;
+//                             d = animatedi;
+//                             animateSkin(b, verifiednames, d, e, i);
+//                             if (window.anualTop < window.anual) window.anualTop = window.anual
 
-                        }
-                    }
-                }
-            }
-        }
-    }
-    //if (window.preSetanimateSkincheck > window.anualTop + 1000 ) window.preSetanimateSkincheck = window.anualTop + 1000
-    window.preSetanimateSkincheck = window.anualTop
-    if (defaultmapsettings.vanillaSkins) {
-        setTimeout(function() {
-            animateSkincheck()
-        }, window.preSetanimateSkincheck);
-    }
-}
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     //if (window.preSetanimateSkincheck > window.anualTop + 1000 ) window.preSetanimateSkincheck = window.anualTop + 1000
+//     window.preSetanimateSkincheck = window.anualTop
+//     if (defaultmapsettings.vanillaSkins) {
+//         setTimeout(function() {
+//             animateSkincheck()
+//         }, window.preSetanimateSkincheck);
+//     }
+// }
 
 function animateSkin(b, verifiednames, d, e, i) {
     setTimeout(function() {
